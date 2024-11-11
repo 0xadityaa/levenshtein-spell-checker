@@ -143,10 +143,13 @@ export function SpellChecker() {
       <div className="container mx-auto p-4 space-y-6 max-w-4xl">
         <div className="flex items-center justify-between">
           <div className="space-y-2">
-            <h1 className="text-2xl sm:text-3xl font-bold tracking-tight flex items-center gap-2">
-              <Pen className="h-6 w-6 sm:h-8 sm:w-8" />
-              Levenshtine's Spell Checker
-            </h1>
+            <div className="flex items-center justify-between">
+                <h1 className="text-2xl sm:text-3xl font-bold tracking-tight flex items-center gap-2">
+                <Pen className="h-6 w-6 sm:h-8 sm:w-8" />
+                Levenshtine's Spell Checker
+                </h1>
+                <ThemeToggle />
+            </div>
             <p className="text-sm sm:text-base text-muted-foreground">
               💡 - Implementation of a basic spell checker that uses levenshtine's algorithm to find similar words based on distence of editing.
             </p>
@@ -157,7 +160,6 @@ export function SpellChecker() {
               ✍️ - Get summary of edits after applying changes.
             </p>
           </div>
-          <ThemeToggle />
         </div>
 
         <div className="grid gap-4">

@@ -146,18 +146,21 @@ export function SpellChecker() {
             <div className="flex items-center justify-between">
                 <h1 className="text-2xl sm:text-3xl font-bold tracking-tight flex items-center gap-2">
                 <Pen className="h-6 w-6 sm:h-8 sm:w-8" />
-                Levenshtine's Spell Checker
+                Levenshtine&apos;s Spell Checker
                 </h1>
                 <ThemeToggle />
             </div>
             <p className="text-sm sm:text-base text-muted-foreground">
-              💡 - Implementation of a basic spell checker that uses levenshtine's algorithm to find similar words based on distence of editing.
+              💡 - Implementation of a basic spell checker that uses Levenshtine&apos;s algorithm to find similar words based on distance of editing.
             </p>
             <p className="text-sm sm:text-base text-muted-foreground">
               🛠️ - Red underlined words might be misspelled - hover over them to see suggestions and view how different each suggestion is from your word. you can select on each suggested word to visualize it's logic.
             </p>
             <p className="text-sm sm:text-base text-muted-foreground">
               ✍️ - Get summary of edits after applying changes.
+            </p>
+            <p className="text-sm sm:text-base text-muted-foreground">
+              ⚠ - This is a basic Implementation of a spell-checker and dictionary of words it has is limited/hardcoded so it might not have many words that you type and is not completely accurate. Purpose of this is to visualize the algorithm and how it works.
             </p>
           </div>
         </div>

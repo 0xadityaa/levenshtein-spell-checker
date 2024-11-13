@@ -64,3 +64,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@media (max-width: 640px) {
+  .hover-card-content {
+    max-width: 90vw; /* Adjust width for smaller screens */
+  }
+}
